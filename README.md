@@ -6,7 +6,7 @@ This repo is private, as is the ResearchDrive area.
 ## Files
 
 - [README_main_directory.md](README_main_directory.md): Overview of the `main_directory` folder.
-- [README_annotated_peak_summaries.md](README_annotated_peak_summaries.md): Naming convention for peak summary files in `annotated_peak_summaries/` subfolder.
+- [README_annotated_peak_summaries.md](README_annotated_peak_summaries.md): Naming convention for peak summary files in `annotated_peak_summaries` subfolder.
 - [README_mapping_data.md](README_mapping_data.md): Overview of the `mapping_data` subfolder.
 - [prompts.md](prompts.md): Prompts used for this and other documents.
 
