@@ -1,42 +1,29 @@
-# Systems Genetics & QTL Mapping Pipeline
+This folder contains the GitHub-specific files for the `main_directory`.
 
-This directory contains the data, scripts, and results for a systems genetics pipeline focusing on Quantitative Trait Loci (QTL) mapping and mediation analysis. The project primarily utilizes mouse models (mm39) with orthologous mapping to human genomic data.
-See [AI Prompts](prompts.md) for the prompts used for this and other documents. See additionally
+## Files
 
-- [annotated_peak_summaries/README.md](README_annotated_peak_summaries.md)
-- [mapping_data/README.md](README_mapping_data.md)
+- [README_main_directory.md](README_main_directory.md): Overview of the `main_directory` folder.
+- [README_annotated_peak_summaries.md](README_annotated_peak_summaries.md): Naming convention for peak summary files in `annotated_peak_summaries/` folder.
+- [README_mapping_data.md](README_mapping_data.md): Overview of the `mapping_data` folder.
+- [prompts.md](prompts.md): Prompts used for this and other documents.
 
-## Directory Structure
+## Symbolic Links
 
-### Data & Infrastructure
+Each of these files has a
+[symbolic link](https://www.computerhope.com/jargon/s/symblink.htm)
+in the `main_directory` folder (or subfolder).
+The symbolic links were created in Linix/MacOS using the following command:
 
-- **`raw_data/`**: Original input datasets.
-- **`mapping_data/`**: Genotype and phenotype maps used for mapping.
-- **`files_for_cross_object/`**: Files required to construct R/qtl2 cross objects.
-- **`rankz_data/`**: Normalized and transformed phenotype data.
-- **`ensembl_*.csv`**: Genomic reference files for mouse (GRCm39) and human (GRCh38).
+```
+cd main_directory
+ln -s GitHub/README_main_directory.md README.md
+ln -s GitHub/prompts.md prompts.md
+cd annotated_peak_summaries
+ln -s ../GitHub/README_annotated_peak_summaries.md README.md
+cd ../mapping_data
+ln -s ../GitHub/README_mapping_data.md README.md
+```
 
-### Analysis Steps
-
-- **`scans/`**: Results of genome-wide scans (LOD scores).
-- **`permutations/`**: Permutation test results for establishing significance thresholds.
-- **`correlations/`**: Statistical correlations between traits and genotypes.
-- **`mediations/`**: Outcomes of mediation analyses to identify causal candidates.
-- **`snp_scans/`**: High-resolution association mapping results.
-
-### Annotation & Refinement
-
-- **`top_snps_high_moderate_impact/`**: Variants filtered by functional impact.
-- **`variant_tables/`**: Detailed functional annotations for variants.
-- **`annotated_peak_summaries/`**: Summarized results of significant QTL peaks.
-- **`mm39_multiz35way_maf/`**: Multi-species alignment data for conservation scoring.
-
-### Code & Documentation
-
-- **`scripts/`**: R scripts for the analysis workflow and Interactive Shiny applications (e.g., QTL Fine-Mapper).
-- **`Documentation/`**: Protocols, environment setup guides, and project overviews.
-- **`R_package_source_files/`**: Local source code for project-specific R packages (`YandellIntermediate`).
-
-## Getting Started
-
-For an overview of the analysis workflow, refer to the documents in the `Documentation/` directory. To explore results interactively, see the Shiny apps provided in the `scripts/` folder.
+- [README_main_directory.md](../README.md)
+- [README_annotated_peak_summaries.md](../annotated_peak_summaries/README.md)
+- [README_mapping_data.md](../mapping_data/README.md)
