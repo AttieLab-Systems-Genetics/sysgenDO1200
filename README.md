@@ -3,7 +3,7 @@ folder `mkeller3/General/main_directory`.
 The repo is a mirror of the subfolder `GitHub`.
 This repo is private, as is the ResearchDrive (RD) area.
 
-I linked the `GitHub` folder on RD with this GitHub repository (or "repo")
+I connected the `GitHub` folder on RD with this GitHub repository (or "repo")
 using help from
 [Get started with GitHub](https://happygitwithr.com/usage-intro#usage-intro).
 Specifically, I created the RD folder and used instructions about
