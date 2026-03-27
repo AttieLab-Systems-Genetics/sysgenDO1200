@@ -2,10 +2,15 @@
 
 This directory contains R scripts for data processing, QTL analysis, and interactive visualization using Shiny. These tools are designed for high-resolution mapping and functional annotation of genetic variants.
 
-For the related code and collaborative development, visit the project repository:
-[mkeller3Projects2](https://github.com/AttieLab-Systems-Genetics/mkeller3Projects2)
-
 Dates of last documented change in parentheses (YYYY-MM-DD).
+
+## Contents
+
+- [QTL Mapping & Visualization](#qtl-mapping--visualization)
+- [SNP Conservation & Annotation](#snp-conservation--annotation)
+- [Data Acquisition](#data-acquisition)
+- [Documentation](#documentation)
+- [Additional Code on ResearchDrive](#additional-code-on-researchdrive)
 
 ## QTL Mapping & Visualization
 
@@ -39,3 +44,26 @@ source("W:/General/main_directory/scripts/QTL_Mapper_Functions.R")
 ```r
 launch_qtl_app()
 ```
+
+## Additional Code on ResearchDrive and GitHub
+
+The overview above is for the [ResearchDrive (RD)](https://it.wisc.edu/services/researchdrive/)
+folder `mkeller3/General/main_directory/scripts`.
+
+Additional code on RD can be found in
+
+- `mkeller3/General/Projects2/` (Mark Keller)
+  - `mkeller3/General/Projects2/R scripts` (see repo
+[AttieLab-Systems-Genetics/mkeller3Projects2](https://github.com/AttieLab-Systems-Genetics/mkeller3Projects2))
+  - `mkeller3/General/Projects2/Antigravity` (mix of code and processed data)
+- `mkeller3/General/emfinger_ML_projects` (Chris Emfinger)
+- `mkeller3/General/QTL_mapping_KM` (Kelly Mitok)
+  - `mkeller3/General/QTL_mapping_KM/scripts` (Kelly Mitok)
+- `mkeller3/General/VEP/scripts` (??)
+- ?? (Charles Opara)
+- Box folder (Alan Attie)
+
+Additional code on GitHub can be found in
+[AttieLab-Systems-Genetics](https://github.com/AttieLab-Systems-Genetics).
+See the list of repositories at
+[AttieLab-Systems-Genetics](https://github.com/orgs/AttieLab-Systems-Genetics/repositories).
