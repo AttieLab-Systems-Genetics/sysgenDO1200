@@ -1,3 +1,5 @@
+# GitHub Documentation Repository
+
 This repo contains documentation files for the [ResearchDrive](https://it.wisc.edu/services/researchdrive/)
 folder `mkeller3/General/main_directory`.
 The repo is a mirror of the subfolder `GitHub`.
@@ -15,6 +17,7 @@ to set up the connection.
 - [README_main_directory.md](README_main_directory.md): Overview of the `main_directory` folder.
 - [README_annotated_peak_summaries.md](README_annotated_peak_summaries.md): Naming convention for peak summary files in `annotated_peak_summaries` subfolder.
 - [README_mapping_data.md](README_mapping_data.md): Overview of the `mapping_data` subfolder.
+- [README_scripts.md](README_scripts.md): Overview of the `scripts` subfolder.
 - [prompts.md](prompts.md): Prompts used for this and other documents.
 
 ## Symbolic Links
@@ -36,8 +39,12 @@ ln -s ../GitHub/README_annotated_peak_summaries.md README.md
 
 cd ../mapping_data
 ln -s ../GitHub/README_mapping_data.md README.md
+
+cd ../scripts
+ln -s ../GitHub/README_scripts.md README.md
 ```
 
 - [README_main_directory.md](../README.md)
 - [README_annotated_peak_summaries.md](../annotated_peak_summaries/README.md)
 - [README_mapping_data.md](../mapping_data/README.md)
+- [README_scripts.md](../scripts/README.md)

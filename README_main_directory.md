@@ -46,6 +46,7 @@ See additionally
   - `GitHub/prompts.md` -> `prompts.md`
   - `GitHub/README_annotated_peak_summaries.md` -> `annotated_peak_summaries/README.md`
   - `GitHub/README_mapping_data.md` -> `mapping_data/README.md`
+  - `GitHub/README_scripts.md` -> `scripts/README.md`
   - `GitHub/README.md`: Overview of the GitHub repository and symlink setup.
 
 ## Getting Started
