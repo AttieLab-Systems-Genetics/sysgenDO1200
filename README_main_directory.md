@@ -3,8 +3,8 @@
 This directory contains the data, scripts, and results for a systems genetics pipeline focusing on Quantitative Trait Loci (QTL) mapping and mediation analysis. The project primarily utilizes mouse models (mm39) with orthologous mapping to human genomic data.
 See [AI Prompts](prompts.md) for the prompts used for this and other documents. See additionally
 
-- [annotated_peak_summaries/README.md](/GitHub/README_annotated_peak_summaries.md)
-- [mapping_data/README.md](/GitHub/README_mapping_data.md)
+- `annotated_peak_summaries/README.md`
+- `mapping_data/README.md`
 
 ## Directory Structure
 
@@ -40,11 +40,11 @@ See [AI Prompts](prompts.md) for the prompts used for this and other documents. 
 - **`Documentation/`**: Protocols, environment setup guides, and project overviews.
 - **`R_package_source_files/`**: Local source code for project-specific R packages (`YandellIntermediate`).
 - **`GitHub/`**: The git repository containing metadata and history for this project. This directory contains the source documentation files, which are symlinked to their respective locations in the project:
-  - [`GitHub/README_main_directory.md`](GitHub/README_main_directory.md) -> `README.md`
-  - [`GitHub/prompts.md`](GitHub/prompts.md) -> `prompts.md`
-  - [`GitHub/README_annotated_peak_summaries.md`](GitHub/README_annotated_peak_summaries.md) -> `annotated_peak_summaries/README.md`
-  - [`GitHub/README_mapping_data.md`](GitHub/README_mapping_data.md) -> `mapping_data/README.md`
-  - [`GitHub/README.md`](GitHub/README.md): Overview of the GitHub repository and symlink setup.
+  - `GitHub/README_main_directory.md` -> `README.md`
+  - `GitHub/prompts.md` -> `prompts.md`
+  - `GitHub/README_annotated_peak_summaries.md` -> `annotated_peak_summaries/README.md`
+  - `GitHub/README_mapping_data.md` -> `mapping_data/README.md`
+  - `GitHub/README.md`: Overview of the GitHub repository and symlink setup.
 
 ## Getting Started
 
