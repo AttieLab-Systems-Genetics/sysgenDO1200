@@ -2,7 +2,7 @@
 
 This directory contains R scripts for data processing, QTL analysis, and interactive visualization using Shiny. These tools are designed for high-resolution mapping and functional annotation of genetic variants.
 
-For the latest code and collaborative development, visit the project repository:
+For the related code and collaborative development, visit the project repository:
 [mkeller3Projects2](https://github.com/AttieLab-Systems-Genetics/mkeller3Projects2)
 
 Dates of last documented change in parentheses (YYYY-MM-DD).
