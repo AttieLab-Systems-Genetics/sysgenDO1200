@@ -10,7 +10,7 @@ Dates of last documented change in parentheses (YYYY-MM-DD).
 - [SNP Conservation & Annotation](#snp-conservation--annotation)
 - [Data Acquisition](#data-acquisition)
 - [Documentation](#documentation)
-- [Additional Code on ResearchDrive](#additional-code-on-researchdrive)
+- [Additional Code on ResearchDrive and GitHub](#additional-code-on-researchdrive-and-github)
 
 ## QTL Mapping & Visualization
 
