@@ -3,7 +3,10 @@
 This repo contains documentation files for the [ResearchDrive](https://it.wisc.edu/services/researchdrive/)
 folder `mkeller3/General/main_directory`.
 The repo is a mirror of the subfolder `GitHub`.
-This repo is private, as is the ResearchDrive (RD) area.
+This repo is public, but the ResearchDrive (RD) area is private.
+The file
+[project.md](project.md)
+describes the project in more detail.
 
 I connected the `GitHub` folder on RD with this GitHub repository (or "repo")
 using help from
@@ -14,6 +17,7 @@ to set up the connection.
 
 ## Files
 
+- [project.md](project.md): Outline of project.
 - [main_directory/README.md](main_directory/README.md): Overview of the `main_directory` folder.
 - [main_directory/annotated_peak_summaries/README.md](main_directory/annotated_peak_summaries/README.md): Naming convention for peak summary files in `annotated_peak_summaries` subfolder.
 - [main_directory/mapping_data/README.md](main_directory/mapping_data/README.md): Overview of the `mapping_data` subfolder.

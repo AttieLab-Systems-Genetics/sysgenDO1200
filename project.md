@@ -1,5 +1,16 @@
 # DO1200 Project Overview
 
+This project is undertaken in the laboratory of
+[Alan Attie](https://biochem.wisc.edu/people/attie/);
+see
+[Lab Website](https://attielab.biochem.wisc.edu/)
+for overview of lab projects.
+
+This specific project is known as DO1200, a name derived from the
+[Diversity Outbred Mouse Population](https://pmc.ncbi.nlm.nih.gov/articles/PMC3524832/),
+the source of the mice
+This experiment aimed for 1200 mice, hence the name.
+
 The key measurements concern genotypes (genetic characteristics at birth of each mouse) and phenotypes = traits (characteristics measured at various timepoints in the lives of each mouse).
 An overarching goal is relating genotype to phenotype, in order to understand mechanisms of life processes such as metabolism and disease.
 
