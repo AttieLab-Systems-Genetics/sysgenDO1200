@@ -5,10 +5,12 @@ See [AI Prompts](prompts.md) for the prompts used for this and other documents.
 Dates of last documented change in parentheses (YYYY-MM-DD).
 See additionally
 
-- [annotated_peak_summaries/README.md](annotated_peak_summaries/README.md)
-- [mapping_data/README.md](mapping_data/README.md)
-- [scripts/README.md](scripts/README.md)
 - [files_for_cross_object/README.md](files_for_cross_object/README.md)
+- [mapping_data/README.md](mapping_data/README.md)
+- [annotated_peak_summaries/README.md](annotated_peak_summaries/README.md)
+- [snp_scans/README.md](snp_scans/README.md)
+- [mediations/README.md](mediations/README.md)
+- [scripts/README.md](scripts/README.md)
 
 ## Directory Structure
 
@@ -26,8 +28,8 @@ See additionally
 - **`scans/`**: Results of genome-wide scans (LOD scores). (2026-03-25)
 - **`permutations/`**: Permutation test results for establishing significance thresholds. (2026-02-26)
 - **`correlations/`**: Statistical correlations between traits and genotypes. (2026-02-05)
-- **`mediations/`**: Outcomes of mediation analyses to identify causal candidates. (2026-01-08)
-- **`snp_scans/`**: High-resolution association mapping results. (2026-02-02)
+- **`mediations/`**: Outcomes of mediation analyses to identify causal candidates. (2026-04-23)
+- **`snp_scans/`**: High-resolution association mapping results. (2026-04-23)
 - **`output_directory/`**: General output results from various analysis steps. (2026-01-19)
 
 ### Annotation & Refinement
@@ -50,6 +52,8 @@ See additionally
   - `GitHub/main_directory/mapping_data/README.md` -> `mapping_data/README.md`
   - `GitHub/main_directory/scripts/README.md` -> `scripts/README.md`
   - `GitHub/main_directory/files_for_cross_object/README.md` -> `files_for_cross_object/README.md`
+  - `GitHub/main_directory/snp_scans/README.md` -> `snp_scans/README.md`
+  - `GitHub/main_directory/mediations/README.md` -> `mediations/README.md`
   - `GitHub/README.md`: Overview of the GitHub repository and symlink setup.
 
 ## Getting Started
