@@ -8,13 +8,6 @@ The file
 [project.md](project.md)
 describes the project in more detail.
 
-I connected the `GitHub` folder on RD with this GitHub repository (or "repo")
-using help from
-[Get started with GitHub](https://happygitwithr.com/usage-intro#usage-intro).
-Specifically, I created the RD folder and used instructions about
-[Existing project, GitHub last](https://happygitwithr.com/existing-github-last#existing-github-last)
-to set up the connection.
-
 ## Files
 
 - [project.md](project.md): Outline of project.
@@ -66,3 +59,12 @@ ln -s ../GitHub/main_directory/mediations/README.md README.md
 - [main_directory/files_for_cross_object/README.md](../files_for_cross_object/README.md)
 - [main_directory/snp_scans/README.md](../snp_scans/README.md)
 - [main_directory/mediations/README.md](../mediations/README.md)
+
+---
+
+I connected the `GitHub` folder on RD with this GitHub repository (or "repo")
+using help from
+[Get started with GitHub](https://happygitwithr.com/usage-intro#usage-intro).
+Specifically, I created the RD folder and used instructions about
+[Existing project, GitHub last](https://happygitwithr.com/existing-github-last#existing-github-last)
+to set up the connection.
