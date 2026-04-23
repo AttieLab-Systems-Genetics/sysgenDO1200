@@ -18,6 +18,7 @@ to set up the connection.
 - [main_directory/annotated_peak_summaries/README.md](main_directory/annotated_peak_summaries/README.md): Naming convention for peak summary files in `annotated_peak_summaries` subfolder.
 - [main_directory/mapping_data/README.md](main_directory/mapping_data/README.md): Overview of the `mapping_data` subfolder.
 - [main_directory/scripts/README.md](main_directory/scripts/README.md): Overview of the `scripts` subfolder.
+- [main_directory/files_for_cross_object/README.md](main_directory/files_for_cross_object/README.md): Overview of the `files_for_cross_object` subfolder.
 - [prompts.md](prompts.md): Prompts used for this and other documents.
 
 ## Symbolic Links
@@ -41,9 +42,13 @@ ln -s ../GitHub/main_directory/mapping_data/README.md README.md
 
 cd ../scripts
 ln -s ../GitHub/main_directory/scripts/README.md README.md
+
+cd ../files_for_cross_object
+ln -s ../GitHub/main_directory/files_for_cross_object/README.md README.md
 ```
 
 - [main_directory/README.md](../README.md)
 - [main_directory/annotated_peak_summaries/README.md](../annotated_peak_summaries/README.md)
 - [main_directory/mapping_data/README.md](../mapping_data/README.md)
 - [main_directory/scripts/README.md](../scripts/README.md)
+- [main_directory/files_for_cross_object/README.md](../files_for_cross_object/README.md)

@@ -8,6 +8,7 @@ See additionally
 - [annotated_peak_summaries/README.md](annotated_peak_summaries/README.md)
 - [mapping_data/README.md](mapping_data/README.md)
 - [scripts/README.md](scripts/README.md)
+- [files_for_cross_object/README.md](files_for_cross_object/README.md)
 
 ## Directory Structure
 
@@ -15,7 +16,7 @@ See additionally
 
 - **`raw_data/`**: Original input datasets. (2026-03-19)
 - **`mapping_data/`**: Genotype and phenotype maps used for mapping. (2026-03-18)
-- **`files_for_cross_object/`**: Files required to construct R/qtl2 cross objects. (2026-02-26)
+- **`files_for_cross_object/`**: Files required to construct R/qtl2 cross objects. (2026-04-23)
 - **`rankz_data/`**: Normalized and transformed phenotype data. (2026-01-16)
 - **`ensembl_*.csv`**: Genomic reference files for mouse (GRCm39) and human (GRCh38). (2026-02-04)
 - **`complete_meds_chr_18_61Mbp_locus.csv`**: Specific mediation results for the chromosome 18 locus. (2025-06-11)
@@ -42,12 +43,13 @@ See additionally
 - **`scripts/`**: R scripts for the analysis workflow and Interactive Shiny applications (e.g., QTL Fine-Mapper). (2026-03-13)
 - **`Documentation/`**: Protocols, environment setup guides, and project overviews. (2025-12-04)
 - **`R_package_source_files/`**: Local source code for project-specific R packages (`YandellIntermediate`). (2024-11-07)
-- **`GitHub/`**: The git repository containing metadata and history for this project. This directory contains the source documentation files, which are symlinked to their respective locations in the project: (2026-03-22)
-  - `GitHub/README_main_directory.md` -> `README.md`
+- **`GitHub/`**: The git repository containing metadata and history for this project. This directory contains the source documentation files, which are symlinked to their respective locations in the project: (2026-04-23)
+  - `GitHub/main_directory/README.md` -> `README.md`
   - `GitHub/prompts.md` -> `prompts.md`
-  - `GitHub/README_annotated_peak_summaries.md` -> `annotated_peak_summaries/README.md`
-  - `GitHub/README_mapping_data.md` -> `mapping_data/README.md`
-  - `GitHub/README_scripts.md` -> `scripts/README.md`
+  - `GitHub/main_directory/annotated_peak_summaries/README.md` -> `annotated_peak_summaries/README.md`
+  - `GitHub/main_directory/mapping_data/README.md` -> `mapping_data/README.md`
+  - `GitHub/main_directory/scripts/README.md` -> `scripts/README.md`
+  - `GitHub/main_directory/files_for_cross_object/README.md` -> `files_for_cross_object/README.md`
   - `GitHub/README.md`: Overview of the GitHub repository and symlink setup.
 
 ## Getting Started
