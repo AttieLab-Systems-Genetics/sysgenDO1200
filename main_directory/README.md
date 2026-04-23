@@ -5,8 +5,9 @@ See [AI Prompts](prompts.md) for the prompts used for this and other documents.
 Dates of last documented change in parentheses (YYYY-MM-DD).
 See additionally
 
-- `annotated_peak_summaries/README.md`
-- `mapping_data/README.md`
+- [annotated_peak_summaries/README.md](annotated_peak_summaries/README.md)
+- [mapping_data/README.md](mapping_data/README.md)
+- [scripts/README.md](scripts/README.md)
 
 ## Directory Structure
 
